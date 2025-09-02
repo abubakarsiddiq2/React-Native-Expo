@@ -34,6 +34,7 @@ const Home = () => {
         // numColumns={}
         data={[1, 2, 3, 1, 2, 2, 2, 2, 3, 3, 21, 7]}
         horizontal
+        showsHorizontalScrollIndicator = {false}
         renderItem={({item}) => {
           return (
             
