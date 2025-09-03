@@ -1,7 +1,7 @@
 import { useRouter } from "expo-router";
-import { View, TextInput, Image, Text } from "react-native";
-import "react-native-gesture-handler";
 import { useState } from "react";
+import { Image, TextInput, View } from "react-native";
+import "react-native-gesture-handler";
 import MyBtn from "../Components/MyBtn";
 
 export default function Login() {
